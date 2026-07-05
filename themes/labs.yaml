@@ -170,3 +170,339 @@ labs-basic:
       scrollbar-thumb-color: "rgba(91, 112, 126, 0.35)"
       label-badge-background-color: "#FFFFFF"
       label-badge-text-color: "#16232D"
+
+homeworld-command:
+  # Shared (both modes) — rounded Lantean console
+  ha-card-border-radius: "12px"
+  ha-card-border-width: "1px"
+  ha-card-box-shadow: "none"
+  ha-dialog-border-radius: "16px"
+
+  modes:
+    dark:
+      # Core palette — lantean teal base, gate amber for active states
+      primary-color: "#3FBFB4"
+      accent-color: "#FFB347"
+      light-primary-color: "#7FD9D0"
+      dark-primary-color: "#2A8F86"
+
+      # Backgrounds
+      primary-background-color: "#081018"
+      secondary-background-color: "#0B1620"
+      card-background-color: "#0E1A26"
+      ha-card-background: "#0E1A26"
+      mdc-theme-surface: "#12212F"
+
+      # Borders & dividers
+      ha-card-border-color: "rgba(63, 191, 180, 0.16)"
+      divider-color: "rgba(127, 160, 174, 0.14)"
+
+      # Text
+      primary-text-color: "#D7E6EC"
+      secondary-text-color: "#7FA0AE"
+      text-primary-color: "#081018"
+      disabled-text-color: "#4E6875"
+
+      # App header
+      app-header-background-color: "#081018"
+      app-header-text-color: "#D7E6EC"
+      app-header-edit-background-color: "#0E1A26"
+
+      # Sidebar
+      sidebar-background-color: "#081018"
+      sidebar-text-color: "#7FA0AE"
+      sidebar-icon-color: "#7FA0AE"
+      sidebar-selected-text-color: "#3FBFB4"
+      sidebar-selected-icon-color: "#3FBFB4"
+
+      # Entity states & icons — amber marks active, teal is the resting hue
+      state-icon-color: "#7FA0AE"
+      paper-item-icon-color: "#7FA0AE"
+      paper-item-icon-active-color: "#FFB347"
+
+      # Status colors
+      info-color: "#3FBFB4"
+      success-color: "#4ADE9E"
+      warning-color: "#FFB347"
+      error-color: "#FF6161"
+
+      # Switches
+      switch-checked-color: "#FFB347"
+      switch-checked-button-color: "#FFB347"
+      switch-checked-track-color: "rgba(255, 179, 71, 0.35)"
+      switch-unchecked-button-color: "#7FA0AE"
+      switch-unchecked-track-color: "rgba(127, 160, 174, 0.30)"
+
+      # Sliders
+      slider-color: "#FFB347"
+      slider-secondary-color: "rgba(255, 179, 71, 0.50)"
+      slider-track-color: "rgba(127, 160, 174, 0.25)"
+
+      # Inputs
+      input-fill-color: "#0B1620"
+      input-ink-color: "#D7E6EC"
+      input-label-ink-color: "#7FA0AE"
+      input-idle-line-color: "rgba(127, 160, 174, 0.35)"
+      input-hover-line-color: "#3FBFB4"
+      input-dropdown-icon-color: "#7FA0AE"
+      input-clear-icon-color: "#7FA0AE"
+
+      # Tables
+      table-row-background-color: "#0E1A26"
+      table-row-alternative-background-color: "#0B1620"
+      data-table-background-color: "#0E1A26"
+
+      # Code, badges & misc
+      code-editor-background-color: "#0B1620"
+      markdown-code-background-color: "#0B1620"
+      scrollbar-thumb-color: "rgba(127, 160, 174, 0.30)"
+      label-badge-background-color: "#0E1A26"
+      label-badge-text-color: "#D7E6EC"
+
+    light:
+      # Core palette
+      primary-color: "#0E8A80"
+      accent-color: "#E08A1E"
+      light-primary-color: "#5BBFB6"
+      dark-primary-color: "#0A6A62"
+
+      # Backgrounds
+      primary-background-color: "#EFF5F7"
+      secondary-background-color: "#E2ECEF"
+      card-background-color: "#FFFFFF"
+      ha-card-background: "#FFFFFF"
+      mdc-theme-surface: "#FFFFFF"
+
+      # Borders & dividers
+      ha-card-border-color: "rgba(14, 138, 128, 0.18)"
+      divider-color: "rgba(18, 36, 48, 0.10)"
+
+      # Text
+      primary-text-color: "#122430"
+      secondary-text-color: "#55707C"
+      text-primary-color: "#FFFFFF"
+      disabled-text-color: "#97AAB4"
+
+      # App header
+      app-header-background-color: "#EFF5F7"
+      app-header-text-color: "#122430"
+      app-header-edit-background-color: "#FFFFFF"
+
+      # Sidebar
+      sidebar-background-color: "#EFF5F7"
+      sidebar-text-color: "#55707C"
+      sidebar-icon-color: "#55707C"
+      sidebar-selected-text-color: "#0E8A80"
+      sidebar-selected-icon-color: "#0E8A80"
+
+      # Entity states & icons — amber marks active, teal is the resting hue
+      state-icon-color: "#55707C"
+      paper-item-icon-color: "#55707C"
+      paper-item-icon-active-color: "#E08A1E"
+
+      # Status colors
+      info-color: "#0E8A80"
+      success-color: "#0FA96E"
+      warning-color: "#C77712"
+      error-color: "#D63A3A"
+
+      # Switches
+      switch-checked-color: "#E08A1E"
+      switch-checked-button-color: "#E08A1E"
+      switch-checked-track-color: "rgba(224, 138, 30, 0.35)"
+      switch-unchecked-button-color: "#FFFFFF"
+      switch-unchecked-track-color: "rgba(85, 112, 124, 0.30)"
+
+      # Sliders
+      slider-color: "#E08A1E"
+      slider-secondary-color: "rgba(224, 138, 30, 0.50)"
+      slider-track-color: "rgba(85, 112, 124, 0.25)"
+
+      # Inputs
+      input-fill-color: "#E8F0F3"
+      input-ink-color: "#122430"
+      input-label-ink-color: "#55707C"
+      input-idle-line-color: "rgba(85, 112, 124, 0.40)"
+      input-hover-line-color: "#0E8A80"
+      input-dropdown-icon-color: "#55707C"
+      input-clear-icon-color: "#55707C"
+
+      # Tables
+      table-row-background-color: "#FFFFFF"
+      table-row-alternative-background-color: "#EFF5F7"
+      data-table-background-color: "#FFFFFF"
+
+      # Code, badges & misc
+      code-editor-background-color: "#E8F0F3"
+      markdown-code-background-color: "#E8F0F3"
+      scrollbar-thumb-color: "rgba(85, 112, 124, 0.35)"
+      label-badge-background-color: "#FFFFFF"
+      label-badge-text-color: "#122430"
+
+overwatch:
+  # Shared (both modes) — sharp tactical corners
+  ha-card-border-radius: "4px"
+  ha-card-border-width: "1px"
+  ha-card-box-shadow: "none"
+  ha-dialog-border-radius: "6px"
+
+  modes:
+    dark:
+      # Core palette — graphite neutrals, pumpkin orange signal color
+      primary-color: "#E8630F"
+      accent-color: "#FF7518"
+      light-primary-color: "#FF9A52"
+      dark-primary-color: "#B54A08"
+
+      # Backgrounds
+      primary-background-color: "#111418"
+      secondary-background-color: "#16191E"
+      card-background-color: "#1C2127"
+      ha-card-background: "#1C2127"
+      mdc-theme-surface: "#22272E"
+
+      # Borders & dividers — neutral gray, never accent-tinted
+      ha-card-border-color: "rgba(171, 179, 191, 0.18)"
+      divider-color: "rgba(171, 179, 191, 0.14)"
+
+      # Text
+      primary-text-color: "#F6F7F9"
+      secondary-text-color: "#ABB3BF"
+      text-primary-color: "#111418"
+      disabled-text-color: "#5F6B7C"
+
+      # App header
+      app-header-background-color: "#111418"
+      app-header-text-color: "#F6F7F9"
+      app-header-edit-background-color: "#1C2127"
+
+      # Sidebar
+      sidebar-background-color: "#111418"
+      sidebar-text-color: "#ABB3BF"
+      sidebar-icon-color: "#ABB3BF"
+      sidebar-selected-text-color: "#FF7518"
+      sidebar-selected-icon-color: "#FF7518"
+
+      # Entity states & icons
+      state-icon-color: "#ABB3BF"
+      paper-item-icon-color: "#ABB3BF"
+      paper-item-icon-active-color: "#FF7518"
+
+      # Status colors
+      info-color: "#5C88C5"
+      success-color: "#2F9E68"
+      warning-color: "#FF9A52"
+      error-color: "#E5484D"
+
+      # Switches
+      switch-checked-color: "#FF7518"
+      switch-checked-button-color: "#FF7518"
+      switch-checked-track-color: "rgba(255, 117, 24, 0.35)"
+      switch-unchecked-button-color: "#ABB3BF"
+      switch-unchecked-track-color: "rgba(171, 179, 191, 0.30)"
+
+      # Sliders
+      slider-color: "#FF7518"
+      slider-secondary-color: "rgba(255, 117, 24, 0.50)"
+      slider-track-color: "rgba(171, 179, 191, 0.25)"
+
+      # Inputs
+      input-fill-color: "#16191E"
+      input-ink-color: "#F6F7F9"
+      input-label-ink-color: "#ABB3BF"
+      input-idle-line-color: "rgba(171, 179, 191, 0.35)"
+      input-hover-line-color: "#FF7518"
+      input-dropdown-icon-color: "#ABB3BF"
+      input-clear-icon-color: "#ABB3BF"
+
+      # Tables
+      table-row-background-color: "#1C2127"
+      table-row-alternative-background-color: "#16191E"
+      data-table-background-color: "#1C2127"
+
+      # Code, badges & misc
+      code-editor-background-color: "#16191E"
+      markdown-code-background-color: "#16191E"
+      scrollbar-thumb-color: "rgba(171, 179, 191, 0.30)"
+      label-badge-background-color: "#1C2127"
+      label-badge-text-color: "#F6F7F9"
+
+    light:
+      # Core palette — burnt pumpkin for contrast on white
+      primary-color: "#C2570F"
+      accent-color: "#E8630F"
+      light-primary-color: "#F08A45"
+      dark-primary-color: "#9A430A"
+
+      # Backgrounds
+      primary-background-color: "#F6F7F9"
+      secondary-background-color: "#EDEFF2"
+      card-background-color: "#FFFFFF"
+      ha-card-background: "#FFFFFF"
+      mdc-theme-surface: "#FFFFFF"
+
+      # Borders & dividers — neutral gray, never accent-tinted
+      ha-card-border-color: "rgba(95, 107, 124, 0.22)"
+      divider-color: "rgba(28, 33, 39, 0.10)"
+
+      # Text
+      primary-text-color: "#1C2127"
+      secondary-text-color: "#5F6B7C"
+      text-primary-color: "#FFFFFF"
+      disabled-text-color: "#9BA3AF"
+
+      # App header
+      app-header-background-color: "#F6F7F9"
+      app-header-text-color: "#1C2127"
+      app-header-edit-background-color: "#FFFFFF"
+
+      # Sidebar
+      sidebar-background-color: "#F6F7F9"
+      sidebar-text-color: "#5F6B7C"
+      sidebar-icon-color: "#5F6B7C"
+      sidebar-selected-text-color: "#C2570F"
+      sidebar-selected-icon-color: "#C2570F"
+
+      # Entity states & icons
+      state-icon-color: "#5F6B7C"
+      paper-item-icon-color: "#5F6B7C"
+      paper-item-icon-active-color: "#C2570F"
+
+      # Status colors
+      info-color: "#215DB0"
+      success-color: "#238551"
+      warning-color: "#C87619"
+      error-color: "#CD4246"
+
+      # Switches
+      switch-checked-color: "#E8630F"
+      switch-checked-button-color: "#E8630F"
+      switch-checked-track-color: "rgba(232, 99, 15, 0.35)"
+      switch-unchecked-button-color: "#FFFFFF"
+      switch-unchecked-track-color: "rgba(95, 107, 124, 0.30)"
+
+      # Sliders
+      slider-color: "#E8630F"
+      slider-secondary-color: "rgba(232, 99, 15, 0.50)"
+      slider-track-color: "rgba(95, 107, 124, 0.25)"
+
+      # Inputs
+      input-fill-color: "#EDEFF2"
+      input-ink-color: "#1C2127"
+      input-label-ink-color: "#5F6B7C"
+      input-idle-line-color: "rgba(95, 107, 124, 0.40)"
+      input-hover-line-color: "#C2570F"
+      input-dropdown-icon-color: "#5F6B7C"
+      input-clear-icon-color: "#5F6B7C"
+
+      # Tables
+      table-row-background-color: "#FFFFFF"
+      table-row-alternative-background-color: "#F6F7F9"
+      data-table-background-color: "#FFFFFF"
+
+      # Code, badges & misc
+      code-editor-background-color: "#EDEFF2"
+      markdown-code-background-color: "#EDEFF2"
+      scrollbar-thumb-color: "rgba(95, 107, 124, 0.35)"
+      label-badge-background-color: "#FFFFFF"
+      label-badge-text-color: "#1C2127"

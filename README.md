@@ -14,6 +14,8 @@ individually in the Home Assistant theme picker.
 | Theme | Description |
 | --- | --- |
 | `labs-basic` | A simple, clean, sci-fi minimal theme — deep-space backgrounds with electric cyan accents. Supports both light and dark modes automatically. |
+| `homeworld-command` | Stargate Atlantis / Homeworld Command inspired — Lantean console aesthetics with deep ocean-blue backgrounds, glowing teal primaries, and gate-amber active states. Light and dark modes. |
+| `overwatch` | Palantir/Anduril inspired tactical interface — stark graphite neutrals, sharp corners, neutral gray borders, and pumpkin-orange signal colors. Light and dark modes. |
 
 ## Prerequisites
 
