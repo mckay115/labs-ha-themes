@@ -1,0 +1,172 @@
+---
+# Labs Themes for Home Assistant
+# Each top-level key in this file is a separate theme in the theme picker.
+# HACS manages this single file; add new themes here as new top-level keys.
+
+labs-basic:
+  # Shared (both modes)
+  ha-card-border-radius: "10px"
+  ha-card-border-width: "1px"
+  ha-card-box-shadow: "none"
+  ha-dialog-border-radius: "14px"
+
+  modes:
+    dark:
+      # Core palette
+      primary-color: "#2AB7CA"
+      accent-color: "#00E5FF"
+      light-primary-color: "#7FDBE8"
+      dark-primary-color: "#1C8A99"
+
+      # Backgrounds
+      primary-background-color: "#0B0F14"
+      secondary-background-color: "#0E141B"
+      card-background-color: "#111820"
+      ha-card-background: "#111820"
+      mdc-theme-surface: "#141D26"
+
+      # Borders & dividers
+      ha-card-border-color: "rgba(0, 229, 255, 0.12)"
+      divider-color: "rgba(143, 163, 176, 0.14)"
+
+      # Text
+      primary-text-color: "#DDE6ED"
+      secondary-text-color: "#8FA3B0"
+      text-primary-color: "#0B0F14"
+      disabled-text-color: "#55636E"
+
+      # App header
+      app-header-background-color: "#0B0F14"
+      app-header-text-color: "#DDE6ED"
+      app-header-edit-background-color: "#111820"
+
+      # Sidebar
+      sidebar-background-color: "#0B0F14"
+      sidebar-text-color: "#8FA3B0"
+      sidebar-icon-color: "#8FA3B0"
+      sidebar-selected-text-color: "#00E5FF"
+      sidebar-selected-icon-color: "#00E5FF"
+
+      # Entity states & icons
+      state-icon-color: "#8FA3B0"
+      paper-item-icon-color: "#8FA3B0"
+      paper-item-icon-active-color: "#00E5FF"
+
+      # Status colors
+      info-color: "#2AB7CA"
+      success-color: "#2EE6A8"
+      warning-color: "#FFB454"
+      error-color: "#FF5470"
+
+      # Switches
+      switch-checked-color: "#00E5FF"
+      switch-checked-button-color: "#00E5FF"
+      switch-checked-track-color: "rgba(0, 229, 255, 0.35)"
+      switch-unchecked-button-color: "#8FA3B0"
+      switch-unchecked-track-color: "rgba(143, 163, 176, 0.30)"
+
+      # Sliders
+      slider-color: "#00E5FF"
+      slider-secondary-color: "rgba(0, 229, 255, 0.50)"
+      slider-track-color: "rgba(143, 163, 176, 0.25)"
+
+      # Inputs
+      input-fill-color: "#0E141B"
+      input-ink-color: "#DDE6ED"
+      input-label-ink-color: "#8FA3B0"
+      input-idle-line-color: "rgba(143, 163, 176, 0.35)"
+      input-hover-line-color: "#00E5FF"
+      input-dropdown-icon-color: "#8FA3B0"
+      input-clear-icon-color: "#8FA3B0"
+
+      # Tables
+      table-row-background-color: "#111820"
+      table-row-alternative-background-color: "#0E141B"
+      data-table-background-color: "#111820"
+
+      # Code, badges & misc
+      code-editor-background-color: "#0E141B"
+      markdown-code-background-color: "#0E141B"
+      scrollbar-thumb-color: "rgba(143, 163, 176, 0.30)"
+      label-badge-background-color: "#111820"
+      label-badge-text-color: "#DDE6ED"
+
+    light:
+      # Core palette
+      primary-color: "#00879E"
+      accent-color: "#00A6C0"
+      light-primary-color: "#5CC9DB"
+      dark-primary-color: "#006B7D"
+
+      # Backgrounds
+      primary-background-color: "#F4F8FA"
+      secondary-background-color: "#E9F0F4"
+      card-background-color: "#FFFFFF"
+      ha-card-background: "#FFFFFF"
+      mdc-theme-surface: "#FFFFFF"
+
+      # Borders & dividers
+      ha-card-border-color: "rgba(0, 166, 192, 0.18)"
+      divider-color: "rgba(22, 35, 45, 0.10)"
+
+      # Text
+      primary-text-color: "#16232D"
+      secondary-text-color: "#5B707E"
+      text-primary-color: "#FFFFFF"
+      disabled-text-color: "#9AAAB5"
+
+      # App header
+      app-header-background-color: "#F4F8FA"
+      app-header-text-color: "#16232D"
+      app-header-edit-background-color: "#FFFFFF"
+
+      # Sidebar
+      sidebar-background-color: "#F4F8FA"
+      sidebar-text-color: "#5B707E"
+      sidebar-icon-color: "#5B707E"
+      sidebar-selected-text-color: "#00879E"
+      sidebar-selected-icon-color: "#00879E"
+
+      # Entity states & icons
+      state-icon-color: "#5B707E"
+      paper-item-icon-color: "#5B707E"
+      paper-item-icon-active-color: "#00879E"
+
+      # Status colors
+      info-color: "#00879E"
+      success-color: "#0FA97D"
+      warning-color: "#C7791B"
+      error-color: "#D62F53"
+
+      # Switches
+      switch-checked-color: "#00A6C0"
+      switch-checked-button-color: "#00A6C0"
+      switch-checked-track-color: "rgba(0, 166, 192, 0.35)"
+      switch-unchecked-button-color: "#FFFFFF"
+      switch-unchecked-track-color: "rgba(91, 112, 126, 0.30)"
+
+      # Sliders
+      slider-color: "#00A6C0"
+      slider-secondary-color: "rgba(0, 166, 192, 0.50)"
+      slider-track-color: "rgba(91, 112, 126, 0.25)"
+
+      # Inputs
+      input-fill-color: "#EDF3F6"
+      input-ink-color: "#16232D"
+      input-label-ink-color: "#5B707E"
+      input-idle-line-color: "rgba(91, 112, 126, 0.40)"
+      input-hover-line-color: "#00A6C0"
+      input-dropdown-icon-color: "#5B707E"
+      input-clear-icon-color: "#5B707E"
+
+      # Tables
+      table-row-background-color: "#FFFFFF"
+      table-row-alternative-background-color: "#F4F8FA"
+      data-table-background-color: "#FFFFFF"
+
+      # Code, badges & misc
+      code-editor-background-color: "#EDF3F6"
+      markdown-code-background-color: "#EDF3F6"
+      scrollbar-thumb-color: "rgba(91, 112, 126, 0.35)"
+      label-badge-background-color: "#FFFFFF"
+      label-badge-text-color: "#16232D"
