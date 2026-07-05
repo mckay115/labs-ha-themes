@@ -55,6 +55,21 @@ frontend:
     name: labs-basic
   ```
 
+## Labs Cards integration
+
+These themes define extra CSS variables consumed by
+[Labs Cards](https://github.com/mckay115/labs-ha-cards) to give each theme its
+own card personality (glow effects, heading treatments):
+
+| Variable | Purpose |
+| --- | --- |
+| `labs-glow` | Box-shadow applied to active/energized card elements (amber glow on `homeworld-command`, cyan on `labs-basic`, none on `overwatch`) |
+| `labs-heading-transform` | Heading text-transform (`uppercase` on `homeworld-command` and `overwatch`) |
+| `labs-heading-spacing` | Heading letter-spacing (widest on `overwatch` for the tactical look) |
+
+The cards fall back to standard theme variables when these are absent, so they
+work with any theme — these hooks just make them look their best with ours.
+
 ## Screenshots
 
 _Coming soon._

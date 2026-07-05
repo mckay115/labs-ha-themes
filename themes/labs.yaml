@@ -10,6 +10,10 @@ labs-basic:
   ha-card-box-shadow: "none"
   ha-dialog-border-radius: "14px"
 
+  # Labs Cards integration (labs-ha-cards)
+  labs-heading-transform: "none"
+  labs-heading-spacing: "0.02em"
+
   modes:
     dark:
       # Core palette
@@ -91,6 +95,9 @@ labs-basic:
       label-badge-background-color: "#111820"
       label-badge-text-color: "#DDE6ED"
 
+      # Labs Cards integration
+      labs-glow: "0 0 10px rgba(0, 229, 255, 0.25)"
+
     light:
       # Core palette
       primary-color: "#00879E"
@@ -171,12 +178,19 @@ labs-basic:
       label-badge-background-color: "#FFFFFF"
       label-badge-text-color: "#16232D"
 
+      # Labs Cards integration
+      labs-glow: "none"
+
 homeworld-command:
   # Shared (both modes) — rounded Lantean console
   ha-card-border-radius: "12px"
   ha-card-border-width: "1px"
   ha-card-box-shadow: "none"
   ha-dialog-border-radius: "16px"
+
+  # Labs Cards integration (labs-ha-cards) — console-style uppercase headings
+  labs-heading-transform: "uppercase"
+  labs-heading-spacing: "0.06em"
 
   modes:
     dark:
@@ -259,6 +273,9 @@ homeworld-command:
       label-badge-background-color: "#0E1A26"
       label-badge-text-color: "#D7E6EC"
 
+      # Labs Cards integration — gate-amber glow on energized elements
+      labs-glow: "0 0 12px rgba(255, 179, 71, 0.35)"
+
     light:
       # Core palette
       primary-color: "#0E8A80"
@@ -339,12 +356,19 @@ homeworld-command:
       label-badge-background-color: "#FFFFFF"
       label-badge-text-color: "#122430"
 
+      # Labs Cards integration
+      labs-glow: "none"
+
 overwatch:
   # Shared (both modes) — sharp tactical corners
   ha-card-border-radius: "4px"
   ha-card-border-width: "1px"
   ha-card-box-shadow: "none"
   ha-dialog-border-radius: "6px"
+
+  # Labs Cards integration (labs-ha-cards) — wide tactical uppercase, no glow
+  labs-heading-transform: "uppercase"
+  labs-heading-spacing: "0.10em"
 
   modes:
     dark:
@@ -427,6 +451,9 @@ overwatch:
       label-badge-background-color: "#1C2127"
       label-badge-text-color: "#F6F7F9"
 
+      # Labs Cards integration — stark, no glow
+      labs-glow: "none"
+
     light:
       # Core palette — burnt pumpkin for contrast on white
       primary-color: "#C2570F"
@@ -506,3 +533,6 @@ overwatch:
       scrollbar-thumb-color: "rgba(95, 107, 124, 0.35)"
       label-badge-background-color: "#FFFFFF"
       label-badge-text-color: "#1C2127"
+
+      # Labs Cards integration — stark, no glow
+      labs-glow: "none"
